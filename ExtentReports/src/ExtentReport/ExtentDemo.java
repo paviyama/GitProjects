@@ -1,4 +1,4 @@
-package ExtentReport;
+package src.ExtentReport;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -12,6 +12,11 @@ public class ExtentDemo {
 	static ExtentReports reports;
 	static ExtentTest logger;
 	public static void main(String[] args) {
+		
+		/*
+		 * 
+		 * this code i have shared with you over GitHub
+		 */
 		String fileName=new SimpleDateFormat(" 'SampleDemo_'yyyyMMddHHmm'.html' ").format(new Date());
 		String path="C:\\Users\\15186\\Desktop\\ExtentReports\\"+fileName;
 		
